@@ -1,0 +1,17 @@
+---
+environmentSpec: Dev
+type: Product
+authMethod: none
+azureRateLimit:
+  noOfCalls: 4
+  renewalPeriod: 15
+  ratepolicy: product
+  counter: ip-address
+responseCache:
+  timeDuration: 30
+  cachepolicy: product
+product:
+  productName: NewDemoProduct
+  apiList: CloudDictionariesAPI
+schemes: []
+routes: []
